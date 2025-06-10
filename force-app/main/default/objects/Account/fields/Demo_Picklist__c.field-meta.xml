@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Demo_Picklist__c</fullName>
-    <label>Yasksawa Coffee Order</label>
+    <label>Aviva Coffee Order</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
@@ -21,9 +21,9 @@
                 <label>Sugar</label>
             </value>
             <value>
-                <fullName>Creamer</fullName>
+                <fullName>Pickles</fullName>
                 <default>false</default>
-                <label>Creamer</label>
+                <label>Pickles</label>
             </value>
         </valueSetDefinition>
     </valueSet>
