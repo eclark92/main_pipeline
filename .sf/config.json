@@ -1,4 +1,3 @@
 {
-  "org-instance-url": "https://dj7000000h0n6mac21--dev1.sandbox.my.salesforce.com",
-  "org-api-version": "63.0"
+  "target-org": "dev1"
 }
