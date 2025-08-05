@@ -36,6 +36,10 @@ pages/copado__*
 
 #Documents are mostly created in Production and are not deployed between Sandboxes. You can safely ignore them in Git.
 documents/*
+<<<<<<< HEAD
 .copado/CliConfiguration.json
 .gitignore
 .gitignore
+=======
+copado-config.json
+>>>>>>> cdb120446f8bca8b3fd4f5bc19457e9981635c75
