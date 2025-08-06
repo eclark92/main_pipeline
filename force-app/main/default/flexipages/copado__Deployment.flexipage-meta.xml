@@ -3,6 +3,7 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+            //comment1
                 <componentInstanceProperties>
                     <name>collapsed</name>
                     <value>false</value>
