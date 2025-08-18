@@ -21,9 +21,9 @@
                 <label>Sugar</label>
             </value>
             <value>
-                <fullName>Pickles</fullName>
+                <fullName>Creamer</fullName>
                 <default>false</default>
-                <label>Pickles</label>
+                <label>Creamer</label>
             </value>
         </valueSetDefinition>
     </valueSet>
