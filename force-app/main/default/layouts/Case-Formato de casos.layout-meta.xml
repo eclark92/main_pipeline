@@ -70,6 +70,14 @@
                 <behavior>Readonly</behavior>
                 <field>AccountId</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Type__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>SubType__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -131,6 +139,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Comments</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Case_Test_Field__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>

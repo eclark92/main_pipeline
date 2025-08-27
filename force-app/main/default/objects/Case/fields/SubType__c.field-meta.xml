@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubType__c</fullName>
+    <label>SubType</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Confirmed Fraud</fullName>
+                <default>false</default>
+                <label>Confirmed Fraud</label>
+            </value>
+            <value>
+                <fullName>Mailing List</fullName>
+                <default>false</default>
+                <label>Mailing List</label>
+            </value>
+            <value>
+                <fullName>Referral</fullName>
+                <default>false</default>
+                <label>Referral</label>
+            </value>
+            <value>
+                <fullName>Suspected Fraud</fullName>
+                <default>false</default>
+                <label>Suspected Fraud</label>
+            </value>
+            <value>
+                <fullName>VOF MSC</fullName>
+                <default>false</default>
+                <label>VOF MSC</label>
+            </value>
+            <value>
+                <fullName>VOF Tymit MSC</fullName>
+                <default>false</default>
+                <label>VOF Tymit MSC</label>
+            </value>
+            <value>
+                <fullName>VOF Urgent</fullName>
+                <default>false</default>
+                <label>VOF Urgent</label>
+            </value>
+            <value>
+                <fullName>CFAS LOADINGS</fullName>
+                <default>false</default>
+                <label>CFAS LOADINGS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
