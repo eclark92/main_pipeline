@@ -14,7 +14,7 @@ global class LightningSelfRegisterController {
         Auth.AuthConfiguration authConfig = new Auth.AuthConfiguration(communityUrl,'');
         return authConfig.isCommunityUsingSiteAsContainer();
     }
-    
+    //comment
     @TestVisible 
     private static void validatePassword(User u, String password, String confirmPassword) {
         if(!Test.isRunningTest()) {
