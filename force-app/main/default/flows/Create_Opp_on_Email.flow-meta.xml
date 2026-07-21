@@ -15,7 +15,7 @@
         <expression>&quot;Email Generated Opportunity - &quot; &amp; TEXT(NOW())</expression>
     </formulas>
     <interviewLabel>Create Opp on Email {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Create Opp on Email</label>
+    <label>Move Coffee Choices to Opportunity</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -34,6 +34,12 @@
         <label>Create Opportunity</label>
         <locationX>176</locationX>
         <locationY>134</locationY>
+        <inputAssignments>
+            <field>AccountId</field>
+            <value>
+                <elementReference>EmailContent</elementReference>
+            </value>
+        </inputAssignments>
         <inputAssignments>
             <field>Amount</field>
             <value>
